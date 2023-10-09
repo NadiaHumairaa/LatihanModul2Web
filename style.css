@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(57, 203, 239);
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff; /* Warna biru muda */
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Membuat lebar input termasuk padding */
+}
+
+input[type="submit"] {
+    background-color: rgb(57, 203, 239);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+label {
+    font-weight: bold;
+}
